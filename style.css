@@ -52,5 +52,6 @@ h1 {
 }
 
 .container-btns {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
