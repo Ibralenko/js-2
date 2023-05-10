@@ -1,0 +1,57 @@
+img {
+    width: 390px;
+    height: 350px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 78px;
+    margin-bottom: 70px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.slider {
+    width: 390px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.slider-line {
+    height: 350px;
+    width: 1360px;
+    background: rgb(243, 243, 31);
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slider-prev,
+.slider-next {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+    background-color: rgb(243, 243, 31);
+}
+
+.container-btns {
+    display: flex;
+    justify-content: space-around;
+}
